@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite1" verbose="3">
+    <test name="Login in FF">
+        <parameter name="browser" value="FF"></parameter>
+        <parameter name="userName" value="dzaras777@yahoo.com"></parameter>
+        <parameter name="password" value="Mikel7777777"></parameter>
+        <classes>
+           <!-- - <class name="com.work.test.RegisterationWithRegisteredAccountTests" />
+            <class name="com.work.test.HomePageTests" />
+             <class name="com.work.test.IPInformationPageTests" /> -->
+            
+            
+        </classes>
+     </test>
+     
+     <!--    <test name="Login in FF">
+        <parameter name="browser" value="FF"></parameter>
+        <parameter name="userName" value="dzaras777@yahoo.com"></parameter>
+        <parameter name="password" value="Mikel7777777"></parameter>
+        <classes>
+            <class name="com.work.test.RegisterationWithRegisteredAccountTests" />
+            <class name="com.work.test.HomePAgeTests" />
+            
+        </classes>
+     </test>--> 
+     
+    <!-- <test name="Login in Chrome">
+        <parameter name="browser" value="Chrome"></parameter>
+        <parameter name="userName" value="dzaras777@yahoo.com"></parameter>
+        <parameter name="password" value="Mikel7777777"></parameter>
+        <classes>
+            <class name="com.work.test.RegisterationWithRegisteredAccountTests" />
+        </classes>
+     </test> -->
+</suite>     
